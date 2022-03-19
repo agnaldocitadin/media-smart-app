@@ -1,0 +1,61 @@
+.mainframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    will-change: opacity;
+    transition: opacity 1s;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/* 480 */
+@media (min-height: 480px) and (orientation: landscape) {
+    .mainframe {
+        background-image: url(../../assets/480p/mainframe-shadow.png);
+    }
+}
+
+/* 720p */
+@media (min-height: 720px) and (orientation: landscape) {
+    .mainframe {
+        background-image: url(../../assets/720p/mainframe-shadow.png);
+    }
+}
+
+/* 768p */
+@media (min-height: 768px) and (orientation: landscape) {
+    .mainframe {
+        background-image: url(../../assets/768p/mainframe-shadow.png);
+    }
+}
+
+/* 900p */
+@media (min-height: 900px) and (orientation: landscape) {
+    .mainframe {
+        background-image: url(../../assets/900p/mainframe-shadow.png);
+    }
+}
+
+/* 1080p */
+@media (min-height: 1080px) and (orientation: landscape) {
+    .mainframe {
+        background-image: url(../../assets/1080p/mainframe-shadow.png);
+    }
+}
+
+/* 1440p */
+@media (min-height: 1440px) and (orientation: landscape) {
+    .mainframe {
+        background-image: url(../../assets/1440p/mainframe-shadow.png);
+    }
+}
+
+/* 4K */
+@media (min-height: 2160px) and (orientation: landscape) {
+    .mainframe {
+        background-image: url(../../assets/4K/mainframe-shadow.png);
+    }
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist
+src/assets/S05E22.mkv
+src/assets/posters
+__src/assets/S05E22.mkv
+yarn.lock
+.vscode/launch.json

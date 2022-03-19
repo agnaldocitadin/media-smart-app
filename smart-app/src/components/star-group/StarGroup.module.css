@@ -1,0 +1,20 @@
+.rating {
+    font-size: 3vh;
+}
+
+.filledStar path {
+    fill: #da1212;
+}
+
+.emptyStar path {
+    fill: white;
+}
+
+.filledStar {
+    margin-right: 1.5vh;
+}
+
+.emptyStar {
+    margin-right: 1.5vh;
+    opacity: .35;
+}

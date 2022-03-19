@@ -1,0 +1,8 @@
+.content {
+    background-size: cover;
+    background-position: center;
+}
+
+.fade {
+    will-change: opacity;
+}

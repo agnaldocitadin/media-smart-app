@@ -1,0 +1,8 @@
+.filter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1vw;
+    margin-bottom: 2vh;
+    /* will-change: transform; */
+    /* transition: transform 600ms cubic-bezier(0.39, 0.575, 0.565, 1); */
+}

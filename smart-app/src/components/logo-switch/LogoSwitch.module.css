@@ -1,0 +1,13 @@
+:root {
+    --duration: 140ms;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.anim {
+    will-change: opacity;
+    transition: opacity var(--duration);
+}

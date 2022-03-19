@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content span {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3vh;
+    margin-bottom: 3vh;
+    color: white;
+}

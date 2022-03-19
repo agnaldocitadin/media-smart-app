@@ -1,0 +1,84 @@
+.conteudo {
+    width: 50vw;
+    height: 50vh;
+    position: fixed;
+    top: 10vh;
+    left: 10vw;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: black;
+}
+
+.preview {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    bottom: 0;
+    padding: 0 8vh;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7363094896161589) 0%, rgba(0,0,0,0) 100%);
+    will-change: opacity;
+    transition: opacity 350ms;
+}
+
+.controls span {
+    font-size: 3vh;
+    white-space: nowrap;
+    color: white;
+}
+
+.controls span path {
+    color: white;
+}
+
+.captionsDisplayer {
+    position: absolute;
+    bottom: 16.5vh;
+    width: 100vw;
+    text-align: center;
+    /* color: #cccc13; */
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px black;
+}   
+
+.captionsDisplayer * {
+    font-size: 4.5vh;
+}
+
+.captions {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 45vw;
+    /* height: 100vh; */
+    padding: 2vh 2vh 15vh 2vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.captions ul {
+    flex: 0 0 50%;
+}
+
+.captions ul legend {
+    font-size: 2.5vh;
+    font-family: "Bold";
+    padding: 1vh 0;
+}
+
+.space {
+    margin-right: 2vh;
+}

@@ -1,0 +1,106 @@
+.carousel {
+    position: fixed;
+    bottom: 0;
+    padding-top: 3vh;
+    padding-left: 12vh;
+    width: 100vw;
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+    z-index: 1;
+    will-change: opacity;
+    transition: opacity 350ms;
+}
+
+.grayTransition {
+    transition: filter 400ms, opacity 400ms;
+}
+
+.carousel h2 {
+    font-size: 2.8vh;
+    color: white;
+    font-family: "Bold";
+    margin-bottom: 1.6vh;
+    will-change: transition;
+    transition: transform 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.medias {
+    background: #222222;
+    margin-bottom: 2vh;
+    margin-right: 2vh;
+}
+
+.section {
+    background: url(../../assets/general/section-background.png) repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    /* margin-bottom: 2vh; */
+    /* margin-right: 2vh; */
+}
+
+.section b {
+    font-family: "Bold";
+    width: 100%;
+    text-align: center;
+    margin: 0 1vh;
+    color: white;
+}
+
+/* 480 */
+@media (min-height: 480px) and (orientation: landscape) {
+    .carousel {
+        background-image: url(../../assets/720p/shadow-bottom.png); /*TODO create a specific background image*/
+        padding-left: 6vh;
+    }
+}
+
+/* 720p */
+@media (min-height: 720px) and (orientation: landscape) {
+    .carousel {
+        background-image: url(../../assets/720p/shadow-bottom.png);
+        padding-left: 12vh;
+    }
+}
+
+/* 768p */
+@media (min-height: 768px) and (orientation: landscape) {
+    .carousel {
+        background-image: url(../../assets/768p/shadow-bottom.png);
+        padding-left: 12vh;
+    }
+}
+
+/* 900p */
+@media (min-height: 900px) and (orientation: landscape) {
+    .carousel {
+        background-image: url(../../assets/900p/shadow-bottom.png);
+        padding-left: 12vh;
+    }
+}
+
+/* 1080p */
+@media (min-height: 1080px) and (orientation: landscape) {
+    .carousel {
+        background-image: url(../../assets/1080p/shadow-bottom.png);
+        padding-left: 12vh;
+    }
+}
+
+/* 1440p */
+@media (min-height: 1440px) and (orientation: landscape) {
+    .carousel {
+        background-image: url(../../assets/1440p/shadow-bottom.png);
+        padding-left: 12vh;
+    }
+}
+
+/* 4K */
+@media (min-height: 2160px) and (orientation: landscape) {
+    .carousel {
+        background-image: url(../../assets/4K/shadow-bottom.png);
+        padding-left: 12vh;
+    }
+}

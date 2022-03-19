@@ -1,0 +1,5 @@
+.content {
+    color: white;
+    background: rgb(115,18,18);
+    background: linear-gradient(0deg, rgba(115,18,18,1) 0%, rgba(180,18,18,1) 75%);
+}

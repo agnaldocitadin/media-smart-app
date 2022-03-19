@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    background: url(../../assets/general/black-content-background.png) repeat;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+}
+
+.leftContent {
+    width: 30vw;
+    /* background: #262626; */
+    padding: 8vh 0 0 8vh;
+}
+
+.rightContent {
+    width: 70vw;
+    /* background: #333333; */
+    padding: 8vh 4vh 0 8vh;
+}

@@ -1,0 +1,26 @@
+.searchBy {
+    margin-bottom: 3vh;
+}
+
+.suggestion {
+    display: block;
+    padding: 0 .5vw;
+    height: 4.5vh;
+    line-height: 4.5vh;
+    color: white;
+}
+
+.suggestions {
+    margin-top: 3vh;
+}
+
+.typed {
+    font-family: "Bold";
+    font-style: normal;
+    color: white;
+}
+
+.banners {
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+}

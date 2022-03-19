@@ -1,0 +1,6 @@
+.anim {
+    opacity: 0;
+    transform: translateX(-4%);
+    will-change: transform, opacity;
+    transition: transform 290ms,  opacity 290ms;
+}

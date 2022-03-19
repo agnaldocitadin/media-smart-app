@@ -1,0 +1,39 @@
+.baseKeys {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: .3vh;
+    padding: .5vh;
+}
+
+.baseKeys :nth-child(n+37) {
+    grid-column: span 3;
+}
+
+.qwertKeys {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: .5vh;
+    padding: .5vh;
+}
+
+.qwertKeys :nth-child(31) {
+    grid-column: span 2;
+}
+
+.qwertKeys :nth-child(n+40) {
+    grid-column: span 2;
+}
+
+.qwertKeys :nth-child(n+45) {
+    grid-column: span 5;
+}
+
+.baseKeys span, .qwertKeys span {
+    padding: 7% 0;
+    width: 100%;
+    text-align: center;
+    background: #333333; 
+    /* border: 2px solid #4c4c4c; */
+}

@@ -1,0 +1,21 @@
+.avatar {
+    display: grid;
+    grid-template-columns: 7vh 1fr;
+    /* border-bottom: 1px solid #333333; */
+    padding: 2vh;
+    opacity: 0;
+}
+
+.avatar h3 {
+    font-family: "Bold";
+    color: white;
+    line-height: 7vh;
+    margin-left: 1vh;
+}
+
+.avatarImage {
+    width: 7vh;
+    height: 7vh;
+    background: rosybrown;
+    margin-right: 1vw;
+}

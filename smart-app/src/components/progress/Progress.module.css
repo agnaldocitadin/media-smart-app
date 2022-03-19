@@ -1,0 +1,20 @@
+
+.timeFull {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: .2;
+}
+
+.timeElapsed {
+    display: block;
+    position: relative;
+}
+
+.buffered {
+    display: block;
+    position: relative;
+    background: white;
+    opacity: .5;
+}

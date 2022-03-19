@@ -1,0 +1,10 @@
+.content {
+    color: #414141;
+    display: inline-block;
+    padding: .6vh .6vw;
+    font-family: "Bold";
+    border-radius: .3vh;
+    opacity: .85;
+    background: rgb(207,207,207);
+    background: linear-gradient(0deg, rgba(207,207,207,1) 0%, rgba(249,249,249,1) 54%);
+}

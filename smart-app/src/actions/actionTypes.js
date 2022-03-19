@@ -1,0 +1,34 @@
+
+// Application
+export const SELECT_MEDIA_SECTION = "SELECT_MEDIA_SECTION"
+export const SET_MEDIACLIP_SECTION_COLLECTIONS = "SET_MEDIACLIP_SECTION_COLLECTIONS"
+export const APPLICATION_READY = "APPLICATION_READY"
+export const APPLICATION_ERROR = "APPLICATION_ERROR"
+export const CHOOSE_USER_COMPONENT = "CHOOSE_USER_COMPONENT"
+export const REGISTER_USER = "REGISTER_USER"
+
+// Media Details
+export const SELECT_MEDIA = "SELECT_MEDIA"
+export const PLAYING_MEDIA = "PLAYING_MEDIA"
+export const STATE_MEDIA_DETAIL = "STATE_MEDIA_DETAIL" // [ ALL_INFOS, FEW_INFOS, NOTHING ]
+export const ACTIVE_MEDIA_DETAIL = "ACTIVE_MEDIA_DETAIL"
+
+// Carousel
+export const CHANGE_CAROUSEL_STATE = "CHANGE_CAROUSEL_STATE"
+export const ACTIVE_CAROUSEL_MENU = "ACTIVE_CAROUSEL_MENU"
+
+// QuickSearch
+export const RENDERED_QUICKSEARCH = "RENDERED_QUICKSEARCH"
+export const HIDDEN_QUICKSEARCH = "HIDDEN_QUICKSEARCH"
+
+// Settings
+export const RENDERED_SETTINGS = "RENDERED_SETTINGS"
+export const HIDDEN_SETTINGS = "HIDDEN_SETTINGS"
+
+// DashPlayer
+export const DASHPLAYER_LOADING = "DASHPLAYER_LOADING"
+
+
+// ACTIVE = Escuta os eventos
+// RENDERED = Remove o componente do DOM
+// HIDDEN = Estado onde o componente está renderizado, mas oculto na tela

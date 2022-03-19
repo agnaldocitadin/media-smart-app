@@ -1,0 +1,77 @@
+.selection {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: .15vw solid #d3d3d3;
+    padding: 1vh;
+}
+
+.menuTitle {
+    font-family: "Bold";
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    z-index: 1;
+    opacity: .85;
+}
+
+.options {
+    position: fixed;
+    top: 0;
+    left: 34vw;
+    width: 36vw;
+    height: 100vh;
+    z-index: 2;
+}
+
+.optionsTitle {
+    text-align: center;
+    font-family: "Bold";
+    border-bottom: 2px solid rgb(95, 95, 95);
+    margin-top: 7vh;
+    padding: 2vh;
+}
+
+.option {
+    font-family: "Bold";
+    text-align: center;
+    padding: 2vh 0;
+}
+
+
+/* --------------------- */
+
+
+.floatMenu {}
+
+.floatMenu h2 {
+    
+}
+
+
+
+
+
+.floatOptions li {
+    font-family: "Bold";
+    color: white;
+}
+
+.floatOptions li {
+    width: 100%;
+    text-align: center;
+    padding: 3vh 0;
+}
+
+.track {
+    margin-left: 35vw;
+}
+
+
+

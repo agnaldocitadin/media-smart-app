@@ -1,0 +1,25 @@
+.scrollable {
+    display: flex;
+}
+
+.scrollableVertical {
+    flex-flow: column;
+}
+
+.scrollableHorizontal {
+    flex-flow: row; 
+}
+
+.scrollableGrid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scrollableItem {
+    will-change: transform;
+    transition: transform 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.rounded {
+    border-radius: .5vh;
+}
